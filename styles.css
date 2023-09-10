@@ -1,0 +1,88 @@
+body{
+    font-family: 'Poppins',sans-serif;
+    background-image:url('https://wallpapers.com/images/hd/4k-mountain-l3f04sogeaabr5h0.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
+    width:100vw;
+    height:100vh;
+    color:white;
+    background:linear-gradient( 115deg, rgba(150,0,0,0.8), rgba(255, 255, 0, 0.7) ),url(https://wallpapers.com/images/hd/4k-mountain-l3f04sogeaabr5h0.jpg);
+    background-position:center;
+  }
+  h1,p{
+    margin:10px auto;
+    display:block;
+  }
+  #survey-form{
+    background-color:rgb(27,27,50,0.8);
+    width:80%;
+    margin:0 auto;
+    border-radius:10px;
+    max-width:800px;
+  }
+  
+  #title{
+    margin-top:30px;
+    text-align:center;
+    margin-bottom:10px;
+    font-style:300;
+  }
+  
+  #description{
+    margin-top:0;
+    text-align:center;
+    font-style:italic;
+  }
+  
+  .form-div{
+    margin:0 auto 1.25rem 0;
+    padding:0.25rem;
+    align-items:center;
+    display:flex;
+    flex-direction:column;
+    justify-content:centre;
+    
+  }
+  
+  label{
+    
+    margin-bottom:10px;
+    width:90%;
+    font-size:18px;
+    padding-top:8px;
+  }
+  
+  input,select{
+    width:90%;
+    height:40px;
+    border-radius:5px;
+    font-size:16px;
+  }
+  
+  textarea{
+    width:90%;
+    font-size:16px;
+    height:100px;
+  }
+  
+  input[type="radio"],input[type="checkbox"]{
+    height:20px;
+    margin-left:20px;
+    width:10%;
+  }
+  
+  .form-radio, .div-checkbox{
+     display:flex;
+     flex-direction: row;
+     align-items:center;
+     padding-bottom:5px;
+  }
+  
+  input[type="submit"]{
+    width:90%;
+    color:white;
+    background-color:#37af65;
+    border: 1px solid #37af65;
+    margin-bottom:50px;
+  
+  }
